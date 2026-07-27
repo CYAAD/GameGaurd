@@ -121,3 +121,16 @@ __Do not add an Internet Gateway route.__ Keeping the private subnets isolated i
 <img width="1918" height="727" alt="image" src="https://github.com/user-attachments/assets/b898b944-53de-4a20-bf76-112105c01f98" />
 
 The private route table is associated with the private subnets to ensure that backend resources follow a separate set of routing rules from public-facing services. This network segmentation will help isolate Amazon EKS worker nodes and internal game services, providing a more secure and realistic cloud architecture.
+
+
+
+### Launch the Elastic server EC2 instance
+
+#### Objective:
+Deploy an Ubuntu EC2 instance that will host:
+- Elasticsearch
+- Kibana
+- Fleet Server
+- Elastic Agent management
+
+This server will become the central Security Operations platform for this project, where all Infrastructure-as-Code (IaC) security findings from Checkov and Trivy will be ingested, stored, and visualized.

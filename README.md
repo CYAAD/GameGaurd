@@ -84,7 +84,7 @@ Route tables will be created to control how network traffic flows within the VPC
 - Private Route Table -> EKS Worker Nodes
 
 #### Create Public route table:
-<img width="1307" height="730" alt="image" src="https://github.com/user-attachments/assets/08e097ce-df00-40a2-bdbe-eeb14efda395" />
+<img width="1210" height="673" alt="image" src="https://github.com/user-attachments/assets/8458ec42-44c5-44d0-aa69-5e39907e9404" />
 
 #### Add the following Internet route to the Routes of the Public Route table created:
 

@@ -109,3 +109,9 @@ Route tables will be created to control how network traffic flows within the VPC
 #### Create Private route table:
 
 <img width="1917" height="729" alt="image" src="https://github.com/user-attachments/assets/a55b5dc4-6821-4612-a6af-f327e372ed71" />
+
+##### Verify the private routes within the private route table:
+
+<img width="1918" height="723" alt="image" src="https://github.com/user-attachments/assets/f9976141-da48-4cde-a741-42176bee94a9" />
+
+__Do not add an Internet Gateway route.__ Keeping the private subnets isolated is intentional. This reflects how game backend services are typically deployed.

@@ -88,7 +88,7 @@ Route tables will be created to control how network traffic flows within the VPC
 
 #### Add the following Internet route to the Routes of the Public Route table created:
 
-<img width="1907" height="813" alt="image" src="https://github.com/user-attachments/assets/d298a3b0-2ccc-427b-b777-4f44b4890dd7" />
+<img width="1209" height="517" alt="image" src="https://github.com/user-attachments/assets/572ee0b3-e075-4dd3-bb89-301a65805a4c" />
 
 <img width="1298" height="736" alt="image" src="https://github.com/user-attachments/assets/e43e3f4e-a052-4b59-968a-c060e0ddf5b4" />
 

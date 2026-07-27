@@ -86,15 +86,15 @@ Route tables will be created to control how network traffic flows within the VPC
 #### Public route table:
 <img width="1307" height="730" alt="image" src="https://github.com/user-attachments/assets/08e097ce-df00-40a2-bdbe-eeb14efda395" />
 
-##### Add the following Internet route to the Routes of the Public Route table created:
+#### Add the following Internet route to the Routes of the Public Route table created:
 
 <img width="1907" height="813" alt="image" src="https://github.com/user-attachments/assets/d298a3b0-2ccc-427b-b777-4f44b4890dd7" />
 
 <img width="1298" height="736" alt="image" src="https://github.com/user-attachments/assets/e43e3f4e-a052-4b59-968a-c060e0ddf5b4" />
 
-###### What does adding 0.0.0.0/0 to the route table do?
+##### What does adding 0.0.0.0/0 to the route table do?
 Adding a route with the destination 0.0.0.0/0 allows resources within the associated subnet to communicate with any IPv4 address on the internet. By pointing this route to the Internet Gateway, AWS knows to forward all outbound internet traffic through the gateway. For example, when the Elastic Server needs to download Docker packages, retrieve Elastic Stack components, or connect to external repositories, this route enables those internet connections.
 
-##### Add the following subnet associations to the Public route table created:
+#### Add the following subnet associations to the Public route table created:
 
 

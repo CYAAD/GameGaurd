@@ -99,5 +99,9 @@ Adding a route with the destination 0.0.0.0/0 allows resources within the associ
 
 <img width="1918" height="712" alt="image" src="https://github.com/user-attachments/assets/0dcca8dd-e1a4-420c-b2e6-58db57972b20" />
 
+##### Associate Public Subnets (previously created):
+
+<img width="1918" height="711" alt="image" src="https://github.com/user-attachments/assets/d1ff6e02-7721-4bbc-9fee-7d9b9d39b58d" />
+
 
 

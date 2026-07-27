@@ -106,6 +106,6 @@ Route tables will be created to control how network traffic flows within the VPC
 ###### Now the public route table is associated with the public subnets so that resources deployed within them inherit its routing rules. This allows internet-facing resources, such as the Elastic Stack and security scanning servers, to communicate with the internet through the Internet Gateway.
 
 
-#### Create Public route table:
+#### Create Private route table:
 
 <img width="1917" height="729" alt="image" src="https://github.com/user-attachments/assets/a55b5dc4-6821-4612-a6af-f327e372ed71" />

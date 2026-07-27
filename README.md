@@ -99,7 +99,7 @@ Route tables will be created to control how network traffic flows within the VPC
 
 <img width="1918" height="712" alt="image" src="https://github.com/user-attachments/assets/0dcca8dd-e1a4-420c-b2e6-58db57972b20" />
 
-##### Associate Public Subnets (previously created):
+##### Associate Public Subnets (previously created) to public route table:
 
 <img width="1918" height="711" alt="image" src="https://github.com/user-attachments/assets/d1ff6e02-7721-4bbc-9fee-7d9b9d39b58d" />
 
@@ -115,3 +115,8 @@ Route tables will be created to control how network traffic flows within the VPC
 <img width="1918" height="723" alt="image" src="https://github.com/user-attachments/assets/20c6c85c-cd08-4ff2-93e0-6114b4297725" />
 
 __Do not add an Internet Gateway route.__ Keeping the private subnets isolated is intentional. This reflects how game backend services are typically deployed.
+
+#### Associate Private Subnets (previously created) to private route table:
+
+<img width="1918" height="727" alt="image" src="https://github.com/user-attachments/assets/b898b944-53de-4a20-bf76-112105c01f98" />
+

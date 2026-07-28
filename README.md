@@ -141,3 +141,29 @@ This server will become the central Security Operations platform for this projec
 
 #### Launching EC2 Instance:
 
+<img width="1918" height="766" alt="image" src="https://github.com/user-attachments/assets/be25cdbc-6a01-45ab-8a39-bd9da1d47d45" />
+
+##### Create the Key Pair
+
+<img width="1918" height="766" alt="image" src="https://github.com/user-attachments/assets/48889158-dc8b-4d15-b31e-a2481e9d60e0" />
+
+##### Configure the Network settings of the EC2 instance:
+
+###### Set the VPC to GameInfraGuard-VPC (previously created) and the subnet to public-subnet-a
+
+<img width="1918" height="721" alt="image" src="https://github.com/user-attachments/assets/fadcf69e-f877-46f6-99f2-80ddeeb08b89" />
+
+##### Create security groups necessary 
+
+###### SSH inbound rule:
+<img width="602" height="335" alt="image" src="https://github.com/user-attachments/assets/69f20972-ff89-413d-8a7e-5d9fdc13e7f9" />
+
+###### Kibana webinterface:
+<img width="599" height="152" alt="image" src="https://github.com/user-attachments/assets/2ee5788c-b0d3-42c1-90f4-ddfad1c95108" />
+
+###### Elasticsearch: (Used for API access and testing.)
+<img width="596" height="138" alt="image" src="https://github.com/user-attachments/assets/1b04ea57-2e51-44ac-88ca-bb5415d0ae98" />
+
+###### Fleet Server (Agent Server):
+<img width="601" height="147" alt="image" src="https://github.com/user-attachments/assets/7804e3a9-176c-4687-89cf-8fd90736d9ce" />
+

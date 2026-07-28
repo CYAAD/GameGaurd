@@ -155,7 +155,7 @@ This server will become the central Security Operations platform for this projec
 
 ##### Create security groups necessary 
 
-###### SSH inbound rule:
+###### SSH inbound rule: (for testing purposes I will be using Source type 0.0.0.0/0)
 <img width="602" height="335" alt="image" src="https://github.com/user-attachments/assets/69f20972-ff89-413d-8a7e-5d9fdc13e7f9" />
 
 ###### Kibana webinterface:

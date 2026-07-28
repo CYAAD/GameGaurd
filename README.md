@@ -138,3 +138,6 @@ This server will become the central Security Operations platform for this projec
 #### Architecture:
 
 <img width="340" height="558" alt="image" src="https://github.com/user-attachments/assets/98e569e6-30f0-412f-b648-3f08456e319a" />
+
+#### Launching EC2 Instance:
+

@@ -173,3 +173,6 @@ This server will become the central Security Operations platform for this projec
 <img width="959" height="361" alt="image" src="https://github.com/user-attachments/assets/5e1ca559-0c7a-4d48-aa2e-4c1ee456427e" />
 
 ###### Elastic stores logs, dashboards, indices, and scan results, so extra storage prevents you from running out of space during the project.
+
+#### Verify that the EC2 Instance is working
+

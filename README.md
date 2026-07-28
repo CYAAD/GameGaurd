@@ -167,3 +167,9 @@ This server will become the central Security Operations platform for this projec
 ###### Fleet Server (Agent Server):
 <img width="601" height="147" alt="image" src="https://github.com/user-attachments/assets/7804e3a9-176c-4687-89cf-8fd90736d9ce" />
 
+
+##### Configure Storage (volumes):
+###### Increase the root/EBS volume storage capacity.
+<img width="959" height="361" alt="image" src="https://github.com/user-attachments/assets/5e1ca559-0c7a-4d48-aa2e-4c1ee456427e" />
+
+###### Elastic stores logs, dashboards, indices, and scan results, so extra storage prevents you from running out of space during the project.

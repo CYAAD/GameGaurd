@@ -272,6 +272,7 @@ sudo docker run hello-world
 A successful test displays a message beginning with Hello from Docker!
 
 #### **Step 7: Configure User Permissions**
+Membership in the docker group grants highly privileged access to the host. Restrict this permission to trusted administrative users.
 To run Docker commands as the default Ubuntu user without repeatedly using sudo, execute:
 ```
 sudo usermod -aG docker ubuntu

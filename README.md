@@ -227,3 +227,15 @@ Refresh the package lists:
 ```
 sudo apt update
 ```
+
+#### **Step 4: Install Docker Engine and Docker Compose**
+Install Docker and its required components:
+```
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+The installed components include:
+- Docker Engine: Runs and manages containers
+- Docker CLI: Provides command-line access to Docker
+- containerd: Manages container execution
+- Docker Buildx: Supports advanced image builds
+- Docker Compose: Manages multi-container applications

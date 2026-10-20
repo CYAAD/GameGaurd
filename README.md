@@ -203,3 +203,27 @@ Purpose of executing this command:
 - curl downloads files from remote servers.
 
 - gnupg processes package-signing keys.
+
+#### **Step 3: Configure Docker's Official Repository**
+To configure Ubuntu to retrieve Docker packages from Docker's official repository and verify their signatures using the configured signing key.
+
+Create the directory used to store repository-signing keys:
+```
+sudo install -m 0755 -d /etc/apt/keyrings
+```
+Download Docker's official GPG key:
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor --yes -o /etc/apt/keyrings/docker.gpg
+```
+Set the key's permissions:
+```
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+```
+Add Docker's official Ubuntu repository:
+```
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+Refresh the package lists:
+```
+sudo apt update
+```

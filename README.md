@@ -191,3 +191,8 @@ sudo apt update
 sudo apt upgrade -y
 ```
 
+#### **Step 2: Install Required Dependencies**
+Install the packages needed to configure Docker's official repository:
+```
+sudo apt install -y ca-certificates curl gnupg
+```

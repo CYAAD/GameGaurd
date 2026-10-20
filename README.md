@@ -270,3 +270,16 @@ Run a test container:
 sudo docker run hello-world
 ```
 A successful test displays a message beginning with Hello from Docker!
+
+#### **Step 7: Configure User Permissions**
+To run Docker commands as the default Ubuntu user without repeatedly using sudo, execute:
+```
+sudo usermod -aG docker ubuntu
+```
+Disconnect and reconnect to the EC2 instance for the updated group membership to take effect.
+
+to verify access:
+```
+docker ps
+```
+

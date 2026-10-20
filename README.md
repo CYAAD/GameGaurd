@@ -239,3 +239,15 @@ The installed components include:
 - containerd: Manages container execution
 - Docker Buildx: Supports advanced image builds
 - Docker Compose: Manages multi-container applications
+
+#### **Step 5: Start and Enable the Docker Service**
+Start Docker and configure it to start automatically when the instance boots:
+```
+sudo systemctl enable --now docker
+```
+Check the service status:
+```
+sudo systemctl status docker
+```
+Confirms that the service is active and running:
+<img width="941" height="233" alt="image" src="https://github.com/user-attachments/assets/b1d30b25-e750-40f5-a099-e9b7ba3c4f71" />

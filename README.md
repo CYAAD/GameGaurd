@@ -196,3 +196,10 @@ Install the packages needed to configure Docker's official repository:
 ```
 sudo apt install -y ca-certificates curl gnupg
 ```
+Purpose of executing this command:
+
+- ca-certificates enables verification of trusted TLS certificates.
+
+- curl downloads files from remote servers.
+
+- gnupg processes package-signing keys.

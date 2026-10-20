@@ -176,3 +176,6 @@ This server will become the central Security Operations platform for this projec
 
 #### Verify that the EC2 Instance is working
 
+### Install Docker to Elastic EC2 instance
+
+

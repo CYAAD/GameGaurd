@@ -251,3 +251,22 @@ sudo systemctl status docker
 ```
 Confirms that the service is active and running:
 <img width="941" height="233" alt="image" src="https://github.com/user-attachments/assets/b1d30b25-e750-40f5-a099-e9b7ba3c4f71" />
+
+#### **Step 6: Verify the Installation**
+Check the installed Docker version:
+```
+docker --version
+```
+Check the Docker Compose version:
+```
+docker compose version
+```
+Verify that Docker can list containers:
+```
+sudo docker ps
+```
+Run a test container:
+```
+sudo docker run hello-world
+```
+A successful test displays a message beginning with Hello from Docker!

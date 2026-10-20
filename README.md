@@ -178,4 +178,8 @@ This server will become the central Security Operations platform for this projec
 
 ### Install Docker to Elastic EC2 instance
 
+Now to install Docker Engine and Docker Compose on the Ubuntu EC2 instance (elastic-server) to prepare the environment for deploying Elasticsearch and Kibana.
+
+Docker will provide us with a containerized environment that simplifies application deployment, configuration, and management. This will allow GameInfraGuard to run its security monitoring components in containers.
+
 

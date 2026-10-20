@@ -182,4 +182,9 @@ Now to install Docker Engine and Docker Compose on the Ubuntu EC2 instance (elas
 
 Docker will provide us with a containerized environment that simplifies application deployment, configuration, and management. This will allow GameInfraGuard to run its security monitoring components in containers.
 
+##### Step 1: Update the ubuntu machine:
+```
+sudo apt update
+sudo apt upgrade -y
+```
 
